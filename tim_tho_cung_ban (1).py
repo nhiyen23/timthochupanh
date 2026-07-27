@@ -2071,8 +2071,8 @@ def render_search():
     
     with col4:
         time_filter = st.selectbox(
-            "Thời gian rảnh",
-            ["Tất cả", "Sáng", "Trưa", "Tối", "Khuya"],
+            "Số năm kinh nghiệm",
+            ["Tất cả", "<1 năm", "1-3 năm", "3-5 năm", ">5 năm"],
             key="time_filter"
         )
     
