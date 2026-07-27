@@ -2050,7 +2050,7 @@ def render_search():
     
     with col1:
         distance_filter = st.selectbox(
-            "Khoảng cách",
+            "Tỉnh thành",
             ["Tất cả", "<500m", "500m-1km", "1-2km"],
             key="distance_filter"
         )
@@ -2161,7 +2161,7 @@ def render_detail():
     with col1:
         st.markdown(f"""
         <div style="margin-bottom: 1rem;">
-            <p style="font-family: 'DM Sans', sans-serif; font-weight: 700; color: #333; margin-bottom: 0.3rem;">Khoảng cách:</p>
+            <p style="font-family: 'DM Sans', sans-serif; font-weight: 700; color: #333; margin-bottom: 0.3rem;">Tỉnh thành:</p>
             <p style="font-family: 'DM Sans', sans-serif; color: #666;">{restaurant['distance']} từ vị trí của bạn</p>
         </div>
         """, unsafe_allow_html=True)
