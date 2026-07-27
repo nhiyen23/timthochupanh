@@ -2027,7 +2027,7 @@ def render_home():
         {
             "icon": "⏱",
             "title": "Gợi ý theo thời gian",
-            "description": "Gợi ý thợ nhận lịch chụp sáng, trưa, tối, khuya."
+            "description": "Gợi ý thợ nhận lịch chụp sáng, trưa, tối."
         }
     ]
     
