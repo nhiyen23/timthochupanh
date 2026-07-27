@@ -2283,7 +2283,7 @@ def render_contribute():
                 ["Cơm/Xôi/Cháo", "Bún/Phở/Miến/Bánh canh/Súp", "Gà/Thịt chiên", "Đồ Hàn", "Nem nướng", "Bánh mì pate/chảo/muối ớt", "Bánh tráng", "Tacos", "Bánh cuốn"],
             )
             time_slots = st.multiselect(
-                "Thời gian nhận lịch *",
+                "Số năm kinh nghiệm *",
                 ["Sáng", "Trưa", "Tối", "Khuya"]
             )
             rating = st.slider("Đánh giá của bạn", 1.0, 5.0, 4.0, 0.5)
