@@ -2265,7 +2265,7 @@ def render_contribute():
     st.write("Chia sẻ trải nghiệm của bạn tại đây!")
     st.link_button(
         "📋 Điền Google Form",
-        "https://docs.google.com/forms/d/e/1FAIpQLScyJ_1kOwu9Bkbhw-PPf68ogTTg_LTkouyPf-yYd_noU5JJ5Q/viewform?usp=publish-editor"
+        "https://docs.google.com/forms/d/e/1FAIpQLSdcoRypiVHZq5tAarzI_ou-fYJ_UHr0yDDiPFWwIs8Io8gRcQ/viewform?usp=header"
     )
     with st.form("contribute_form"):
         st.markdown('<div class="hero-title3">Thông tin thợ chụp ảnh</div>', unsafe_allow_html=True)
