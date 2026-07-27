@@ -355,7 +355,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Dữ liệu về thợ chụp ảnh (tái sử dụng cấu trúc dữ liệu gốc)
+# Dữ liệu về thợ chụp ảnh
 restaurants_data = [
     {
         "name": "Quán Đức Quân",
@@ -363,7 +363,7 @@ restaurants_data = [
         "distance": "<500m",
         "price": "30-40k",
         "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
-        "time": ["Sáng", "Trưa", "Tối"],
+        "time": ["<1 năm", "1-3 năm"],
         "hours": "5:00 - 0:00",
         "menu": [
             {"dish": "Bún chả nướng chấm-chan", "price": "35k"},
