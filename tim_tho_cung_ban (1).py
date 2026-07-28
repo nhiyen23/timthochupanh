@@ -1980,7 +1980,7 @@ def render_home():
         <div class="hero-title2">Giới thiệu nhanh</div>
         <div class="hero-subtitle2">Nền tảng kết nối bạn với thợ chụp ảnh phù hợp quanh khu vực của bạn</div>
         <p class="hero-description">
-            "Tìm Thợ Cùng Bạn" là nền tảng giúp bạn, đặc biệt là các bạn trẻ và sinh viên, nhanh chóng tìm được thợ chụp ảnh phù hợp trong bán kính 0–2km dựa trên mức giá, thời gian rảnh, khoảng cách và đánh giá thực tế từ những khách hàng đã trải nghiệm.
+            "Tìm Thợ Cùng Bạn" là nền tảng giúp bạn, đặc biệt là các bạn trẻ và sinh viên, nhanh chóng tìm được thợ chụp ảnh phù hợp dựa trên mức giá, thời gian rảnh, khoảng cách và đánh giá thực tế từ những khách hàng đã trải nghiệm.
         </p>
     </div>
     """, unsafe_allow_html=True)
