@@ -2160,7 +2160,7 @@ def render_detail():
         st.markdown(f"""
         <div style="margin-bottom: 1rem;">
             <p style="font-family: 'DM Sans', sans-serif; font-weight: 700; color: #333; margin-bottom: 0.3rem;">Thành phố:</p>
-            <p style="font-family: 'DM Sans', sans-serif; color: #666;">{restaurant['distance']} từ vị trí của bạn</p>
+            <p style="font-family: 'DM Sans', sans-serif; color: #666;">{restaurant['distance']}  </p>
         </div>
         """, unsafe_allow_html=True)
     
