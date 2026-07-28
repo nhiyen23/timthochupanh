@@ -2175,7 +2175,7 @@ def render_detail():
     with col3:
         st.markdown(f"""
         <div style="margin-bottom: 1rem;">
-            <p style="font-family: 'DM Sans', sans-serif; font-weight: 700; color: #333; margin-bottom: 0.3rem;">Giờ nhận lịch:</p>
+            <p style="font-family: 'DM Sans', sans-serif; font-weight: 700; color: #333; margin-bottom: 0.3rem;">Số điện thoại:</p>
             <p style="font-family: 'DM Sans', sans-serif; color: #666;">{restaurant['hours']}</p>
         </div>
         """, unsafe_allow_html=True)
