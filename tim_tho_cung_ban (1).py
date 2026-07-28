@@ -371,7 +371,7 @@ restaurants_data = [
         ],
         "reviews": [
             {"name": "Bùi Mai Ngọc", "rating": 4, "content": "Chụp ảnh đẹp, có tâm"},
-            {"name": "Ngô Linh Giang", "rating": 3.5, "content": "Màu ảnh hơi chói"}
+            {"name": "Ngô Linh Giang", "rating": 3, "content": "Màu ảnh hơi chói"}
         ]
     },
     {
