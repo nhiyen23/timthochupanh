@@ -30,7 +30,7 @@ st.markdown("""
     /* Navigation Bar Title */
     .navbar-title {
         font-family: 'Playfair Display', serif;
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: 900;
         background: linear-gradient(135deg, #6C5CE7 0%, #341F97 100%);
         -webkit-background-clip: text;
