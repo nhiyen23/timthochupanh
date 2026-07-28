@@ -358,22 +358,20 @@ st.markdown("""
 # Dữ liệu về thợ chụp ảnh
 restaurants_data = [
     {
-        "name": "Quán Đức Quân",
-        "address": "Số 2 Ngõ 84 Chùa Láng",
-        "distance": "<500m",
-        "price": "30-40k",
-        "type": ["Bún/Phở/Miến/Bánh canh/Súp"],
-        "time": ["<1 năm", "1-3 năm"],
-        "hours": "5:00 - 0:00",
+        "name": "Nguyễn Bình An",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "<500k",
+        "type": ["Wedding"],
+        "time": ["3-5 năm"],
+        "hours": "0375456289",
         "menu": [
-            {"dish": "Bún chả nướng chấm-chan", "price": "35k"},
-            {"dish": "Bún, miến, bánh đa trộn", "price": "35k"},
-            {"dish": "Bún, miến, bánh đa riêu cua, cá, bò, mọc, chả lá lốt, thập cẩm", "price": "35k"}
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"},
         ],
         "reviews": [
-            {"name": "Minh Anh", "rating": 5, "content": "Rất ngon!"},
-            {"name": "Hoàng Long", "rating": 4, "content": "Phục vụ tốt."},
-            {"name": "Thu Hà", "rating": 5, "content": "Sẽ quay lại!"}
+            {"name": "Bùi Mai Ngọc", "rating": 4, "content": "Chụp ảnh đẹp, có tâm"},
+            {"name": "Ngô Linh Giang", "rating": 3.5, "content": "Màu ảnh hơi chói"}
         ]
     },
     {
