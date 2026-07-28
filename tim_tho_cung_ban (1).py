@@ -408,13 +408,6 @@ restaurants_data = [
             {"name": "Bùi Thanh Hải", "rating": 4, "content": "Thợ ảnh nhiệt tình, hỗ trợ tạo dáng"}
         ]
     },
-          {
-            "name": "Công nhân pháp lý",
-            "rating": 4,
-            "content": "Tôi thề với ae, gọi phần gà không sốt thì giòn thật sự luôn. Phần cơm đặc biệt sốt làm gà không còn giòn nữa. KFC, Jollibee no door."
-          }
-        ]
-     },
      {
         "name": "Kofuku - Tiệm cơm mì",
         "address": "2 Ngõ 106 Phố Chùa Láng",
