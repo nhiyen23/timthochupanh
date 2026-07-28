@@ -2051,21 +2051,21 @@ def render_search():
     with col1:
         distance_filter = st.selectbox(
             "Thành phố",
-            ["Tất cả", "<500m", "500m-1km", "1-2km"],
+            ["Tất cả", "Hà Nội", "TP.HCM"],
             key="distance_filter"
         )
     
     with col2:
         price_filter = st.selectbox(
             "Mức giá",
-            ["Tất cả", "<30k", "30-40k", "40-50k", ">50k"],
+            ["Tất cả", "<500k", "500k-1000k", "1000k-1500k", "1500k-2000k", ">2000k"],
             key="price_filter"
         )
     
     with col3:
         type_filter = st.selectbox(
             "Thể loại chụp",
-            ["Tất cả", "Cơm/Xôi/Cháo", "Bún/Phở/Miến/Bánh canh/Súp", "Gà/Thịt chiên", "Đồ Hàn", "Nem nướng", "Bánh mì pate/chảo/muối ớt", "Bánh tráng", "Tacos", "Bánh cuốn"],
+            ["Tất cả", "Tốt nghiệp", "Sinh nhật", "Kỷ yếu", "Concept", "Ngoại cảnh", "Wedding"],
             key="type_filter"
         )
     
