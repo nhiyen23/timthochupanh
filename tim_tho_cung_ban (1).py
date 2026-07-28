@@ -408,56 +408,620 @@ restaurants_data = [
             {"name": "Bùi Thanh Hải", "rating": 4, "content": "Thợ ảnh nhiệt tình, hỗ trợ tạo dáng"}
         ]
     },
-     {
-        "name": "Kofuku - Tiệm cơm mì",
-        "address": "2 Ngõ 106 Phố Chùa Láng",
-        "distance": "<500m",
-        "price": "40-50k",
-        "type": ["Cơm/Xôi/Cháo"],
-        "time": ["Trưa", "Tối"],
-        "hours": "10:00 - 14:00, 15:00 - 21:00",
+{
+        "name": "Nguyễn Vũ Bảo Duy",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "<500k",
+        "type": ["Sinh nhật"],
+        "time": ["1-3 năm"],
+        "hours": "0772540598",
         "menu": [
-              { "dish": "Cơm Katsudon", "price": "55k" },
-              { "dish": "Cơm gà Oyakodon", "price": "45k" },
-              { "dish": "Cơm cari", "price": "35k" },
-              { "dish": "Cơm cari Tonkatsu", "price": "55k" },
-              { "dish": "Cơm gà Karaage", "price": "50k" },
-              { "dish": "Cơm thịt heo Ontama", "price": "55k" },
-              { "dish": "Cơm xá xíu", "price": "55k" },
-              { "dish": "Cơm thịt heo Kimchi", "price": "55k" },
-              { "dish": "Cơm thịt heo", "price": "50k" },
-              { "dish": "Cơm cari tôm chiên", "price": "45k" },
-              { "dish": "Cơm cari trứng ngâm tương", "price": "40k" },
-              { "dish": "Trứng ngâm tương", "price": "8k/quả" },
-              { "dish": "Trứng Ontama", "price": "8k/quả" },
-              { "dish": "Kim chi", "price": "10k" },
-              { "dish": "Tôm chiên", "price": "10k/3 con" },
-              { "dish": "Tonkatsu", "price": "30k/cái" },
-              { "dish": "Gà Karaage", "price": "30k/5 cái" },
-              { "dish": "Trà tắc", "price": "10k" },
-              { "dish": "Trà chanh", "price": "10k" },
-              { "dish": "Trà bát bảo", "price": "10k" },
-              { "dish": "Trà Olong", "price": "10k" },
-              { "dish": "Coca", "price": "15k/lon" }
-         ],
-         "reviews": [
-            {
-              "name": "Linh Nhi",
-              "rating": 4,
-              "content": "Đông khách ở quán rất nhiều, cá nhân mình thấy cơm cà ri đáng thử nhất. Điểm trừ là quán bám mùi quần áo khá nặng, nhưng đồ ăn ngon nên chấp nhận."
-            },
-            {
-              "name": "Nguyet Anh Le",
-              "rating": 4,
-              "content": "Quán nhỏ, buổi trưa rất đông, mình phải đợi khoảng 10 phút mới có chỗ. Cơm cà ri khá ngon, thịt không bị dai, khẩu phần vừa đủ. Nhân viên tận tình và giá rẻ hơn nhiều chỗ khác."
-            },
-            {
-              "name": "Kim Ngân Trần",
-              "rating": 5,
-              "content": "Cơm cà ri tonkatsu ngon lắm, thịt chiên xù giòn, cơm dẻo. Giá sinh viên tầm 50–65k/món. Không gian hơi nhỏ."
-            }
-            ]
-    }, 
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Phan Thị Trà Giang", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Bùi Thanh Hải", "rating": 4, "content": "Ảnh xinh, hậu kỳ cũng đẹp, rcm nha"}
+        ]
+    },
+{
+        "name": "Phạm Anh Minh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": ">2000k",
+        "type": ["Sinh nhật"],
+        "time": [">5 năm"],
+        "hours": "0772540599",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Lê Thục Anh", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Vũ Mai Phương", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Vũ Cao Khánh Linh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "1500k-2000k",
+        "type": ["Ngoại cảnh"],
+        "time": ["3-5 năm"],
+        "hours": "0772540600",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Khúc Phương Linh", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Trần Thị  Vân Giang", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Nguyễn Mạnh Cường",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Wedding"],
+        "time": [">5 năm"],
+        "hours": "0772540601",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Phan Vũ Trà My", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Trần Phương Anh", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Phạm Văn Ngọc",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1000k-1500k",
+        "type": ["Sinh nhật"],
+        "time": ["1-3 năm"],
+        "hours": "0772540602",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Trịnh Phương Thảo", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Đỗ Ngọc Ánh", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Nguyễn Hoàng Khánh Nam",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "<500k",
+        "type": ["Tốt nghiệp"],
+        "time": [">5 năm"],
+        "hours": "0772540603",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Phạm Ngọc Hà", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Lê Phương Mai", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Lê Tùng Anh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "1000k-1500k",
+        "type": ["Kỷ yếu"],
+        "time": ["3-5 năm"],
+        "hours": "0772540604",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Rating: 4", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Bùi Thanh Hải", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Khúc Gia Bảo",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "1500k-2000k",
+        "type": ["Ngoại cảnh"],
+        "time": ["<1 năm"],
+        "hours": "0772540605",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Phan Thị Trà Giang", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"},
+            {"name": "Bùi Thanh Hải", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Nguyễn Minh Quân",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "<500k",
+        "type": ["Ngoại cảnh"],
+        "time": ["3-5 năm"],
+        "hours": "0982345671",
+        "menu": [
+            {"dish": "1 giờ", "price": "350k"},
+            {"dish": "2 giờ", "price": "650k"}
+        ],
+        "reviews": [
+            {"name": "Trần Thị Mai", "rating": 5, "content": "Chụp rất đẹp, chỉnh màu tự nhiên."},
+            {"name": "Hoàng Đức", "rating": 4, "content": "Đúng giờ, làm việc chuyên nghiệp."}
+        ]
+    },
+{
+        "name": "Trần Gia Huy",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": ">2000k",
+        "type": ["Sinh nhật"],
+        "time": ["<1 năm"],
+        "hours": "0973456782",
+        "menu": [
+            {"dish": "1 giờ", "price": "600k"},
+            {"dish": "2 giờ", "price": "1100k"}
+        ],
+        "reviews": [
+            {"name": "Lê Thu Hà", "rating": 5, "content": "Góc chụp sáng tạo, rất hài lòng."},
+            {"name": "Nguyễn Quỳnh", "rating": 4, "content": "Chỉnh ảnh nhanh, nhiệt tình."}
+        ]
+    },
+{
+        "name": "Phạm Tuấn Anh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Kỷ yếu"],
+        "time": ["<1 năm"],
+        "hours": "0914567893",
+        "menu": [
+            {"dish": "1 giờ", "price": "400k"},
+            {"dish": "2 giờ", "price": "700k"}
+        ],
+        "reviews": [
+            {"name": "Đặng Minh", "rating": 4, "content": "Hướng dẫn tạo dáng rất tốt."},
+            {"name": "Vũ Lan", "rating": 5, "content": "Ảnh sắc nét, giao ảnh đúng hẹn."}
+        ]
+    },
+{
+        "name": "Lê Hoàng Nam",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "<500k",
+        "type": ["Concept"],
+        "time": ["3-5 năm"],
+        "hours": "935678904",
+        "menu": [
+            {"dish": "1 giờ", "price": "800k"},
+            {"dish": "2 giờ", "price": "1400k"}
+        ],
+        "reviews": [
+            {"name": "Phương Anh", "rating": 5, "content": "Chụp chuyên nghiệp, màu đẹp."},
+            {"name": "Minh Khoa", "rating": 4, "content": "Thái độ vui vẻ, hỗ trợ nhiệt tình."},
+            {"name": "Huyền Trang", "rating": 5, "content": "Album rất ưng ý."}
+        ]
+    },
+{
+        "name": "Đỗ Khánh Linh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1000k-1500k",
+        "type": ["Sinh nhật"],
+        "time": ["3-5 năm"],
+        "hours": "966789015",
+        "menu": [
+            {"dish": "1 giờ", "price": "250k"},
+            {"dish": "2 giờ", "price": "450k"}
+        ],
+        "reviews": [
+            {"name": "Thanh Tùng", "rating": 4, "content": "Giá hợp lý, ảnh đẹp."},
+            {"name": "Bích Ngọc", "rating": 4, "content": "Chỉnh sửa ảnh cẩn thận."}
+        ]
+    },
+{
+        "name": "Vũ Đức Long",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "500k-1000k",
+        "type": ["Wedding"],
+        "time": ["3-5 năm"],
+        "hours": "947890126",
+        "menu": [
+            {"dish": "1 giờ", "price": "550k"},
+            {"dish": "2 giờ", "price": "950k"}
+        ],
+        "reviews": [
+            {"name": "Quỳnh Anh", "rating": 5, "content": "Tư vấn concept rất có tâm."},
+            {"name": "Thành Công", "rating": 4, "content": "Chụp nhanh, đúng lịch."}
+        ]
+    },
+{
+        "name": "Bùi Hải Đăng",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": ">2000k",
+        "type": ["Wedding"],
+        "time": ["1-3 năm"],
+        "hours": "908901237",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Khánh Vy", "rating": 4, "content": "Màu ảnh đẹp, tự nhiên."},
+            {"name": "Văn Sơn", "rating": 5, "content": "Rất thân thiện, dễ hợp tác."}
+        ]
+    },
+{
+        "name": "Hoàng Nhật Minh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Concept"],
+        "time": [">5 năm"],
+        "hours": "929012348",
+        "menu": [
+            {"dish": "1 giờ", "price": "750k"},
+            {"dish": "2 giờ", "price": "1350k"}
+        ],
+        "reviews": [
+            {"name": "Mai Chi", "rating": 5, "content": "Chất lượng ảnh vượt mong đợi."},
+            {"name": "Quốc Bảo", "rating": 4, "content": "Chỉnh màu đẹp, giao ảnh nhanh."}
+        ]
+    },
+{
+        "name": "Nguyễn Quốc Bảo",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": ">2000k",
+        "type": ["Sinh nhật"],
+        "time": ["3-5 năm"],
+        "hours": "950123459",
+        "menu": [
+            {"dish": "1 giờ", "price": "500k"},
+            {"dish": "2 giờ", "price": "900k"}
+        ],
+        "reviews": [
+            {"name": "Ngọc Hân", "rating": 5, "content": "Chụp rất có tâm và chuyên nghiệp."},
+            {"name": "Đức Huy", "rating": 4, "content": "Tạo không khí thoải mái khi chụp."}
+        ]
+    },
+{
+        "name": "Trịnh Minh Khang",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Tốt nghiệp"],
+        "time": ["3-5 năm"],
+        "hours": "981234560",
+        "menu": [
+            {"dish": "1 giờ", "price": "350k"},
+            {"dish": "2 giờ", "price": "650k"}
+        ],
+        "reviews": [
+            {"name": "Hải Yến", "rating": 4, "content": "Chụp đúng concept mong muốn."},
+            {"name": "Minh Tú", "rating": 5, "content": "Ảnh đẹp, xử lý hậu kỳ nhanh."},
+            {"name": "Kim Anh", "rating": 4, "content": "Giá hợp lý, đáng trải nghiệm."}
+        ]
+    },
+{
+        "name": "Nguyễn Hoàng Anh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1000k-1500k",
+        "type": ["Tốt nghiệp"],
+        "time": ["1-3 năm"],
+        "hours": "0971387619",
+        "menu": [
+            {"dish": "1 giờ", "price": "250k"},
+            {"dish": "2 giờ", "price": "500k"}
+        ],
+        "reviews": [
+            {"name": "Phương Thảo", "rating": 4, "content": "Chụp ảnh đẹp, có tâm"},
+            {"name": "Minh Phương", "rating": 4, "content": "Màu ảnh xinh, chỉnh sửa theo đúng ý"}
+        ]
+    },
+{
+        "name": "Nguyễn Phương Linh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "500k-1000k",
+        "type": ["Wedding"],
+        "time": [">5 năm"],
+        "hours": "'0334169203",
+        "menu": [
+            {"dish": "1 giờ", "price": "250k"},
+            {"dish": "2 giờ", "price": "450k"}
+        ],
+        "reviews": [
+            {"name": "Minh Thư", "rating": 4, "content": "takecare nhiệt tình, màu ảnh xinh"},
+            {"name": "Hà Linh", "rating": 4, "content": "thân thiện, nhiệt tình, chụp có tâm"}
+        ]
+    },
+{
+        "name": "Quốc Anh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1500k-2000k",
+        "type": ["Sinh nhật"],
+        "time": ["3-5 năm"],
+        "hours": "0976524958",
+        "menu": [
+            {"dish": "1 giờ", "price": "400k"},
+            {"dish": "2 giờ", "price": "800k"}
+        ],
+        "reviews": [
+            {"name": "Gia Bảo", "rating": 5, "content": "nhiều góc chụp đỉnh, màu ảnh đẹp"},
+            {"name": "Tường Vy", "rating": 4, "content": "màu ảnh xinh, takecare nhiệt tình, chỉnh dáng đẹp"}
+        ]
+    },
+{
+        "name": "Nguyễn Trọng Nghĩa",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Wedding"],
+        "time": ["3-5 năm"],
+        "hours": "0961120879",
+        "menu": [
+            {"dish": "1 giờ", "price": "400k"},
+            {"dish": "2 giờ", "price": "800k"}
+        ],
+        "reviews": [
+            {"name": "Yến Nhi", "rating": 5, "content": "màu ảnh đẹp, chụp có tâm, thân thiện"},
+            {"name": "Vân Anh", "rating": 4, "content": "màu ảnh đẹp, chuyên nghiệp, nhiệt tình"}
+        ]
+    },
+{
+        "name": "Hạ Mây",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": ">2000k",
+        "type": ["Concept"],
+        "time": ["3-5 năm"],
+        "hours": "0944860993",
+        "menu": [
+            {"dish": "1 giờ", "price": "250k"},
+            {"dish": "2 giờ", "price": "450k"}
+        ],
+        "reviews": [
+            {"name": "Thu Thủy", "rating": 4, "content": ""},
+            {"name": "Minh Hà", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Trịnh Hồng Minh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Ngoại cảnh"],
+        "time": [">5 năm"],
+        "hours": "0914502155",
+        "menu": [
+            {"dish": "1 giờ", "price": "300k"},
+            {"dish": "2 giờ", "price": "500k"}
+        ],
+        "reviews": [
+            {"name": "Phương Anh", "rating": 4, "content": ""},
+            {"name": "Bảo Trâm", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Bùi Đức",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "<500k",
+        "type": ["Tốt nghiệp"],
+        "time": ["1-3 năm"],
+        "hours": "0366971180",
+        "menu": [
+            {"dish": "1 giờ", "price": "400k"},
+            {"dish": "2 giờ", "price": "800k"}
+        ],
+        "reviews": [
+            {"name": "Mai Trang", "rating": 4, "content": "màu ảnh đẹp, design ảnh đẹp"},
+            {"name": "Bảo Trâm", "rating": 4, "content": "concept chụp đẹp, nhiệt tình"}
+        ]
+    },
+{
+        "name": "Trần Ngọc Hoàng Anh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "1500k-2000k",
+        "type": ["Ngoại cảnh"],
+        "time": ["<1 năm"],
+        "hours": "0336568997",
+        "menu": [
+            {"dish": "1 giờ", "price": "250k"},
+            {"dish": "2 giờ", "price": "500k"}
+        ],
+        "reviews": [
+            {"name": "Linh Chi", "rating": 4, "content": ""},
+            {"name": "Bích Giang", "rating": 4, "content": ""}
+        ]
+    },
+{
+        "name": "Ngô Xuân Minh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1500k-2000k",
+        "type": ["Ngoại cảnh"],
+        "time": [">5 năm"],
+        "hours": "0931355808",
+        "menu": [
+            {"dish": "1 giờ", "price": "450k"},
+            {"dish": "2 giờ", "price": "850k"}
+        ],
+        "reviews": [
+            {"name": "Thanh Hà", "rating": 4, "content": "góc chụp đẹp, nhiệt tình"},
+            {"name": "Bích Giang", "rating": 4, "content": "màu ảnh đẹp, hỗ trợ tạo dáng"}
+        ]
+    },
+{
+        "name": "Võ Gia Huy",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": ">2000k",
+        "type": ["Tốt nghiệp"],
+        "time": ["<1 năm"],
+        "hours": "0772540606",
+        "menu": [
+            {"dish": "1 giờ", "price": "200k"},
+            {"dish": "2 giờ", "price": "380k"}
+        ],
+        "reviews": [
+            {"name": "Đinh Hải Yến", "rating": 4, "content": "Thợ mát tay, tìm góc chụp rất tốt"},
+            {"name": "Tạ Quốc Cường", "rating": 4, "content": "Giá hợp lý, hỗ trợ nhanh."}
+        ]
+    },
+{
+        "name": "Cao Nhật Minh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1000k-1500k",
+        "type": ["Tốt nghiệp"],
+        "time": ["3-5 năm"],
+        "hours": "0774640607",
+        "menu": [
+            {"dish": "1 giờ", "price": "280k"},
+            {"dish": "2 giờ", "price": "520k"}
+        ],
+        "reviews": [
+            {"name": "Hồ Ngọc Anh", "rating": 5, "content": "Tay nghề cao, hoàn thành công việc tốt"},
+            {"name": "Lâm Tuấn Kiệt", "rating": 4, "content": "Phục vụ rất nhiệt tình."}
+        ]
+    },
+{
+        "name": "Dương Minh Khang",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "500k-1000k",
+        "type": ["Concept"],
+        "time": ["<1 năm"],
+        "hours": "0772870608",
+        "menu": [
+            {"dish": "1 giờ", "price": "350k"},
+            {"dish": "2 giờ", "price": "650k"}
+        ],
+        "reviews": [
+            {"name": "Trịnh Bảo Châu", "rating": 4, "content": "Thiết bị đầy đủ, làm việc chuyên nghiệp."},
+            {"name": "Phùng Đức Thành", "rating": 4, "content": "Đúng hẹn và uy tín."}
+        ]
+    },
+{
+        "name": "Tô Hoàng Phúc",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": ">2000k",
+        "type": ["Sinh nhật"],
+        "time": ["<1 năm"],
+        "hours": "0772540653",
+        "menu": [
+            {"dish": "1 giờ", "price": "450k"},
+            {"dish": "2 giờ", "price": "850k"}
+        ],
+        "reviews": [
+            {"name": "Vũ Khánh Hòa", "rating": 5, "content": "Chất lượng dịch vụ rất tốt."},
+            {"name": "Hà Minh Quân", "rating": 4, "content": "Thợ tận tâm, làm việc sạch sẽ."}
+        ]
+    },
+{
+        "name": "Chu Quốc Bảo",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": ">2000k",
+        "type": ["Ngoại cảnh"],
+        "time": ["1-3 năm"],
+        "hours": "0776156051",
+        "menu": [
+            {"dish": "1 giờ", "price": "550k"},
+            {"dish": "2 giờ", "price": "1.000k"}
+        ],
+        "reviews": [
+            {"name": "Bạch Thu Hiền", "rating": 4, "content": "Thao tác cẩn thận."},
+            {"name": "Kiều Thanh Sơn", "rating": 4, "content": "Giá hợp lý."}
+        ]
+    },
+{
+        "name": "Lý Thành Công",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "1000k-1500k",
+        "type": ["Sinh nhật"],
+        "time": ["<1 năm"],
+        "hours": "0306164043",
+        "menu": [
+            {"dish": "1 giờ", "price": "700k"},
+            {"dish": "2 giờ", "price": "1.300k"}
+        ],
+        "reviews": [
+            {"name": "Ninh Thảo Vy", "rating": 5, "content": "Tay nghề xuất sắc."},
+            {"name": "Quách Minh Duy", "rating": 4, "content": "Tư vấn kỹ."}
+        ]
+    },
+{
+        "name": "Tăng Đức Anh",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1500k-2000k",
+        "type": ["Tốt nghiệp"],
+        "time": ["<1 năm"],
+        "hours": "0873485345",
+        "menu": [
+            {"dish": "1 giờ", "price": "250k"},
+            {"dish": "2 giờ", "price": "450k"}
+        ],
+        "reviews": [
+            {"name": "Cấn Mai Hương", "rating": 4, "content": "Hỗ trợ nhanh."},
+            {"name": "Hứa Quốc Việt", "rating": 4, "content": "Dịch vụ ổn định."}
+        ]
+    },
+{
+        "name": "Tôn Hải Nam",
+        "address": "TP.HCM",
+        "distance": "TP.HCM",
+        "price": "1000k-1500k",
+        "type": ["Sinh nhật"],
+        "time": ["<1 năm"],
+        "hours": "0733461723",
+        "menu": [
+            {"dish": "1 giờ", "price": "650k"},
+            {"dish": "2 giờ", "price": "1.200k"}
+        ],
+        "reviews": [
+            {"name": "Ôn Bích Ngọc", "rating": 5, "content": "Kinh nghiệm lâu năm."},
+            {"name": "Chế Anh Tuấn", "rating": 4, "content": "Hiệu quả."}
+        ]
+    },
+{
+        "name": "Hứa Minh Trí",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": ">2000k",
+        "type": ["Tốt nghiệp"],
+        "time": ["<1 năm"],
+        "hours": "0734751848",
+        "menu": [
+            {"dish": "1 giờ", "price": "320k"},
+            {"dish": "2 giờ", "price": "600k"}
+        ],
+        "reviews": [
+            {"name": "Mạc Phương Linh", "rating": 4, "content": "Đến đúng giờ."},
+            {"name": "Âu Thanh Bình", "rating": 4, "content": "Hài lòng."}
+        ]
+    },
   {
   "name": "Oanh Oanh - Xôi xéo - Gà tần",
   "address": "38 Nguyễn Chí Thanh",
