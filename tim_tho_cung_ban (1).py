@@ -375,62 +375,39 @@ restaurants_data = [
         ]
     },
     {
-        "name": "Cơm Thố Anh Nguyễn",
-        "address": "Số 17 Chùa Láng",
-        "phone": "0972489933",
-        "distance": "<500m",
-        "price": "40-50k",
-        "type": ["Cơm/Xôi/Cháo"],
-        "time": ["Trưa", "Tối"],
-        "hours": "9:45 - 21:45",
+        "name": "Vũ Ngọc Anh",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": "500k-1000k",
+        "type": ["Sinh nhật"],
+        "time": ["<1 năm"],
+        "hours": "0344582819",
         "menu": [
-          {"dish": "Cơm Thố Dương Châu", "price": "35k" },
-          {"dish": "Cơm Thố Ốp La", "price": "35k" },
-          {"dish": "Cơm Thố Gà", "price": "45k" },
-          {"dish": "Cơm Thố Gà Quay", "price": "45k" },
-          {"dish": "Cơm Thố Gà Nướng", "price": "45k", "tag": "Best seller top2" },
-          {"dish": "Cơm Thố Bò", "price": "50k", "tag": "Best seller top3" },
-          {"dish": "Cơm Thố Sườn Sụn", "price": "50k" },
-          {"dish": "Cơm Thố Xá Xíu", "price": "50k", "tag": "Best seller top1" },
-          {"dish": "Cơm Thố Gà + Xá Xíu", "price": "55k" },
-          {"dish": "Cơm Thố Bò + Xá Xíu", "price": "60k" },
-          {"dish": "Cơm Thố Bò + Gà", "price": "60k" },
-          {"dish": "Cơm Thố Đặc Biệt (Bò + Gà + Xá Xíu + Trứng)", "price": "70k"}
+            {"dish": "1 giờ", "price": "400k"},
+            {"dish": "2 giờ", "price": "750k"}
         ],
         "reviews": [
-            {"name": "Nguyễn Khánh Linh", "rating": 5, "content": "Ăn ổn, giá cả phù hợp, mới nhìn tưởng khẩu phần ít nhưng đến lúc ăn xong no ná thở, phải cố để không bỏ dở"},
-            {"name": "Ngọc Tùng", "rating": 5, "content": "Đồ ăn ngon nha mọi người, mình đặt ship về đồ ăn vẫn nóng hổi"},
-            {"name": "Nguyễn Đức Tài", "rating": 1, "content": "Khách đến chờ 15 phút đi ra mua đồ ăn bánh mì, nước uống quay lại vẫn chưa xong"}
+            {"name": "Phạm Văn Bình", "rating": 4, "content": "Chụp ảnh chuyên nghiệp, trả ảnh chậm"},
+            {"name": "Nguyễn Minh Thảo", "rating": 4, "content": "Màu ảnh đẹp, thợ nhiệt tình, tâm lý"}
         ]
     },
-    {
-        "name": "KOMTO",
-        "address": "127 Ngõ 121/2 Chùa Láng",
-        "phone": "0901020089",
-        "distance": "<500m",
-        "price": "40-50k",
-        "type": ["Cơm/Xôi/Cháo", "Gà/Thịt chiên"],
-        "time": ["Trưa", "Tối"],
-        "hours": "Mở đến 22:00",
+{
+        "name": "Trương Hùng Sơn",
+        "address": "Hà Nội",
+        "distance": "Hà Nội",
+        "price": ">2000k",
+        "type": ["Concept"],
+        "time": ["<1 năm"],
+        "hours": "0345898207",
         "menu": [
-          { "dish": "Gà giòn sốt Thái (M)", "price": "40k" },
-          { "dish": "Gà giòn sốt Thái (L)", "price": "50k" },
-          { "dish": "Cơm đùi gà quế Lâm", "price": "50k" },
-          { "dish": "Gà giòn sốt me (M)", "price": "40k" },
-          { "dish": "Gà giòn sốt me (L)", "price": "50k" },
-          { "dish": "Cơm đùi gà sốt me", "price": "50k" },
-          { "dish": "Cơm gà giòn sốt mật ong (M)", "price": "40k" },
-          { "dish": "Cơm gà giòn sốt mật ong (L)", "price": "50k" },
-          { "dish": "Cơm heo Tứ Xuyên", "price": "50k" },
-          { "dish": "Cơm gà sốt đặc biệt", "price": "40k" },
-          { "dish": "Cơm gà nướng đặc biệt", "price": "45k" }
+            {"dish": "1 giờ", "price": "200k"},
+            {"dish": "2 giờ", "price": "400k"}
         ],
         "reviews": [
-          {
-            "name": "Thục Nghi",
-            "rating": 4,
-            "content": "Mình đi tầm 12h trưa quán siêu đông khách nên phục vụ hơi lâu nhưng đổi lại cơm ăn ngon, so với giá tầm 40-55k thì khẩu phần rất ổn. Canh ăn kèm free hơi nhạt, sốt Thái ổn, sốt me hợp chấm gà hơn."
-          },
+            {"name": "Bùi Khánh Chi", "rating": 3, "content": "Thời gian setup lâu, màu ảnh đẹp"},
+            {"name": "Bùi Thanh Hải", "rating": 4, "content": "Thợ ảnh nhiệt tình, hỗ trợ tạo dáng"}
+        ]
+    },
           {
             "name": "Công nhân pháp lý",
             "rating": 4,
