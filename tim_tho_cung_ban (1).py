@@ -797,8 +797,8 @@ restaurants_data = [
             {"dish": "2 giờ", "price": "450k"}
         ],
         "reviews": [
-            {"name": "Thu Thủy", "rating": 4, "content": ""},
-            {"name": "Minh Hà", "rating": 4, "content": ""}
+            {"name": "Thu Thủy", "rating": 4, "content": "Ảnh đẹp, xử lý hậu kỳ nhanh"},
+            {"name": "Minh Hà", "rating": 4, "content": "Màu ảnh đẹp, chuyên nghiệp, nhiệt tình "}
         ]
     },
 {
@@ -814,8 +814,8 @@ restaurants_data = [
             {"dish": "2 giờ", "price": "500k"}
         ],
         "reviews": [
-            {"name": "Phương Anh", "rating": 4, "content": ""},
-            {"name": "Bảo Trâm", "rating": 4, "content": ""}
+            {"name": "Phương Anh", "rating": 4, "content": "Thái độ vui vẻ, hỗ trợ nhiệt tình"},
+            {"name": "Bảo Trâm", "rating": 4, "content": "Thợ đến đúng giờ, thiết bị chuyên nghiệp, nhiệt tình"}
         ]
     },
 {
@@ -848,8 +848,8 @@ restaurants_data = [
             {"dish": "2 giờ", "price": "500k"}
         ],
         "reviews": [
-            {"name": "Linh Chi", "rating": 4, "content": ""},
-            {"name": "Bích Giang", "rating": 4, "content": ""}
+            {"name": "Linh Chi", "rating": 4, "content": "Chụp ảnh chuyên nghiệp, trả ảnh nhanh"},
+            {"name": "Bích Giang", "rating": 4, "content": "Ảnh xinh, hậu kỳ cũng đẹp, rcm nha"}
         ]
     },
 {
